@@ -2,14 +2,16 @@
 
 <img align="center" width="450" height="277" alt="amigo-secreto" src="https://github.com/user-attachments/assets/62fd7290-59f9-4b89-a36d-3b8450c1fce0" />
 
+<p align="left">
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+</p>
+
 
 ##Índice
 *[Título e imagen de portada](#Título-e-imagen-de-portada)
 *[Insignias](#insignias)
 *[Índice](#índice)
 *[Descripción del proyecto](#descripción-del-proyecto)
-*[Estado del proyecto](#Estado-del-proyecto)
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 *[Acceso al proyecto](#acceso-proyecto)
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
