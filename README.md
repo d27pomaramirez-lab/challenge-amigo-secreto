@@ -1,4 +1,4 @@
-![amigo-secreto ‐ Hecho con Clipchamp](https://github.com/user-attachments/assets/88252ce9-2761-489e-b5f0-b52b32d8e3b3)<h1 align="center"> Challenge Amigo Secreto </h1>
+![amigo-secreto ‐ Hecho con Clipchamp](https://github.com/user-attachments/assets/88252ce9-2761-489e-b5f0-b52b32d8e3b3)<h1> Challenge Amigo Secreto </h1>
 
 <p align="left">
   <img width="450" height="277" alt="amigo-secreto" src="https://github.com/user-attachments/assets/62fd7290-59f9-4b89-a36d-3b8450c1fce0" />
@@ -34,7 +34,10 @@
 
 ### Aplicación
 
-![Emulador de juego](https://github.com/user-attachments/assets/2c366986-b129-4f56-8b35-197d1b008dfd)
+<div align="center">
+  ![Emulador de juego](https://github.com/user-attachments/assets/2c366986-b129-4f56-8b35-197d1b008dfd)
+</div>
+
 
 
 ### Acceso al proyecto
