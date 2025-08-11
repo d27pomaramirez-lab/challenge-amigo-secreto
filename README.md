@@ -35,7 +35,7 @@
 ### Aplicación
 
 <div align="center">
-  ![Emulador de juego](https://github.com/user-attachments/assets/2c366986-b129-4f56-8b35-197d1b008dfd)
+  ![Emulador de juego](https://github.com/user-attachments/assets/c12202fb-e6a9-496f-9345-83c0186d67c0)
 </div>
 
 
