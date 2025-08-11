@@ -9,23 +9,22 @@
 
 ##Índice
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
-*[Insignias](#insignias)
-*[Índice](#índice)
-*[Descripción del proyecto](#descripción-del-proyecto)
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-*[Acceso al proyecto](#acceso-proyecto)
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-*[Personas Contribuyentes](#personas-contribuyentes)
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+* [Título e imagen de portada](#Título-e-imagen-de-portada)
+* [Insignias](#insignias)
+* [Índice](#índice)
+* [Descripción del proyecto](#descripción-del-proyecto)
+* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+* [Acceso al proyecto](#acceso-proyecto)
+* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Personas Contribuyentes](#personas-contribuyentes)
+* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 * [Licencia](#licencia)
-*[Conclusión](#conclusión)
+* [Conclusión](#conclusión)
 
 <h2>Descripción del proyecto</h2>
-
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
+<p>Proyecto en desarrollo sobre la implementación del juego llamado "Amigo Secreto" que consiste en la selección al azar del nombre de un amigo seleccionado de la lista de amigos que se ha creado. </p>
 
 ## :hammer:Funcionalidades del proyecto
-- `Funcionalidad 1`: descripción de la funcionalidad 1- `Funcionalidad 2`: descripción de la funcionalidad 2- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con
+- `Funcionalidad 1`: Ingresar nombre de un amigo a la vez.
+- `Funcionalidad 2`: Añadir nombre a la lista de amigos que sera sorteado.
+- `Funcionalidad 2a`: Sortear amigo al azar y mostrarlo en pantalla
