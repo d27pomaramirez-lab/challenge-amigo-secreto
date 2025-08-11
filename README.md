@@ -7,7 +7,7 @@
 </p>
 
 
-##Índice
+<h2>Índice</h2>
 
 * [Título e imagen de portada](#Título-e-imagen-de-portada)
 * [Insignias](#insignias)
@@ -21,10 +21,16 @@
 * [Licencia](#licencia)
 * [Conclusión](#conclusión)
 
+
 <h2>Descripción del proyecto</h2>
-<p>Proyecto en desarrollo sobre la implementación del juego llamado "Amigo Secreto" que consiste en la selección al azar del nombre de un amigo seleccionado de la lista de amigos que se ha creado. </p>
+<p>Proyecto en desarrollo sobre la implementación del juego llamado "Amigo Secreto" que consiste en la selección al azar del nombre de un amigo seleccionado de la lista de amigos que el usuario ha ingresado.</p>
+
+<h2>Características de la aplicación y demostración</h2>
 
 ## :hammer:Funcionalidades del proyecto
 - `Funcionalidad 1`: Ingresar nombre de un amigo a la vez.
 - `Funcionalidad 2`: Añadir nombre a la lista de amigos que sera sorteado.
-- `Funcionalidad 2a`: Sortear amigo al azar y mostrarlo en pantalla
+- `Funcionalidad 3`: Sortear amigo al azar y mostrarlo en pantalla.
+
+<img align="center" alt="amigo-secreto-video" src="https://github.com/user-attachments/assets/3686f945-fc58-4efd-9589-a5958e167a86" />
+
