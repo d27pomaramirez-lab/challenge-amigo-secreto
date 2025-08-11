@@ -16,7 +16,7 @@
 * [Descripción del proyecto](#descripción-del-proyecto)
 * [Funcionalidades](#Funcionalidades)
 * [Aplicación](#Aplicación)
-* [Acceso al proyecto](#acceso-proyecto)
+* [Acceso al proyecto](#acceso-al-proyecto)
 * [Abrir y ejecutar el proyecto](#abrir-y-ejecutar-el-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 * [Desarrollador](#desarrollador)
@@ -55,7 +55,7 @@
 <img width="40" height="40" alt="css" src="https://github.com/user-attachments/assets/ec3e7daa-628f-43aa-8b4c-86b021a9760d" /> </a>
 
 
-###Desarrollador
+### Desarrollador
 
 | [<img src="https://avatars.githubusercontent.com/u/224181779?s=400&u=b542509272eef999a81a70ad84b7084ea4ab8740&v=4" width=115><br><sub>Poma Ramirez Diego</sub>](https://github.com/d27pomaramirez-lab) 
 | :---:
