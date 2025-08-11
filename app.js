@@ -1,5 +1,7 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-
+//
+//CHALLENGE AMIGO SECRETO
+//
 //Declaración de variables
 
 let amigos = []; //lista para almacenar los nombres
@@ -21,6 +23,7 @@ function agregarAmigo() {
         //Actualizamos la lista de amigos en la pantalla
         actualizarLista(); 
     }
+    return;
 }
 
 function actualizarLista() {
@@ -35,14 +38,37 @@ function actualizarLista() {
         let nuevoElemento = document.createElement('li');
         //asignamos a este elemento el nombre del amigo
         nuevoElemento.innerHTML = amigos[i];
-        //agregamos el elemento con su nombre a la lista general
+        //agregamos el elemento con su nombre a la lista de amigos
         lista.appendChild(nuevoElemento);
     }
+    return;
 }
 
+function sortearAmigo() {
+    //seleccionamos un indice de manera pseudoaleatoria
+    let indiceAleatorio = Math.floor(Math.random()*amigos.length);
+    //capturamos el nombre correspondiente "al azar"
+    nombreElegido = amigos[indiceAleatorio];
+    //mostramos el nombre del amigo secreto
+    mostrarAmigoSecreto(nombreElegido);
+}
+
+function mostrarAmigoSecreto(nombre) {
+    //seleccionamos la lista de resultado
+    let listaResultado = document.querySelector('#resultado');
+    //limpiamos la lista para evitar duplicados
+    listaResultado.innerHTML = "";
+    //creamos un nuevo elemento li
+    let nuevo = document.createElement('li');
+    //asignamos el nombre del amigo secreto
+    nuevo.innerHTML = nombre;
+    //agregamos el elemento a la lista de resultado
+    listaResultado.appendChild(nuevo);
+}
 
 function limpiarEntrada() {
     document.querySelector('#amigo').value = '';
+    return;
 }
 
 
