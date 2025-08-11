@@ -1,7 +1,7 @@
 <h1 align="center"> Challenge Amigo Secreto </h1>
 
 <p align="left">
-  <img align="center" width="450" height="277" alt="amigo-secreto" src="https://github.com/user-attachments/assets/62fd7290-59f9-4b89-a36d-3b8450c1fce0" />
+  <img width="450" height="277" alt="amigo-secreto" src="https://github.com/user-attachments/assets/62fd7290-59f9-4b89-a36d-3b8450c1fce0" />
 </p>
 
 <p align="left">
@@ -53,7 +53,7 @@
 
 ###Desarrollador
 
-|[<img src="https://avatars.githubusercontent.com/u/224181779?s=400&u=b542509272eef999a81a70ad84b7084ea4ab8740&v=4" width=115><br><sub>Poma Ramirez Diego</sub>](https://github.com/crovim](https://github.com/d27pomaramirez-lab)  |
+| [<img src="https://avatars.githubusercontent.com/u/224181779?s=400&u=b542509272eef999a81a70ad84b7084ea4ab8740&v=4" width=115><br><sub>Poma Ramirez Diego</sub>](https://github.com/d27pomaramirez-lab) 
 | :---:
 
 
