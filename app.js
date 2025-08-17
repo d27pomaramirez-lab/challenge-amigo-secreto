@@ -15,6 +15,10 @@ function agregarAmigo() {
     if(nombreDelAmigo === ''){
         //mensaje de alerta
         alert('Por favor, inserte un nombre');
+    }else if(nombreDuplicado(nombreDelAmigo)===true){
+        //Validar que no haya nombres duplicados
+        alert('Nombre duplicado, por favor inserta un nuevo nombre');
+        limpiarEntrada();
     }else{
         //si no esta vacío agrega el nombre a la lista (actualizar la lista)
         amigos.push(nombreDelAmigo);
@@ -69,6 +73,19 @@ function mostrarAmigoSecreto(nombre) {
 function limpiarEntrada() {
     document.querySelector('#amigo').value = '';
     return;
+}
+
+function nombreDuplicado(nombre) {
+    let resultado = false; //booleano para indicar si hay duplicado o no
+    for (let i = 0; i < amigos.length; i++) {
+        //comparamos el nombre ingresado con la lista de amigos
+        if (nombre === amigos[i]) {
+            //si hay duplicado, indicamos que es duplicado
+            resultado = true;
+            return resultado;
+        }
+    }
+    return resultado;
 }
 
 
