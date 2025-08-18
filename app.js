@@ -2,26 +2,31 @@
 //
 //CHALLENGE AMIGO SECRETO
 //
+
+
 //Declaración de variables
 
 let amigos = []; //lista para almacenar los nombres
 
 //Funciones
+
 function agregarAmigo() {
      //capturamos el valor ingresado en el input
     let nombreDelAmigo = document.getElementById('amigo').value;
-    
+    // Formatear el nombre antes de agregarlo a la lista
+    let nombreFormateado = formatearNombre(nombreDelAmigo);
+
     //Validar que el campo no este vacío
-    if(nombreDelAmigo === ''){
+    if(nombreFormateado === ''){
         //mensaje de alerta
         alert('Por favor, inserte un nombre');
-    }else if(nombreDuplicado(nombreDelAmigo)===true){
+    }else if(nombreDuplicado(nombreFormateado)===true){
         //Validar que no haya nombres duplicados
         alert('Nombre duplicado, por favor inserta un nuevo nombre');
         limpiarEntrada();
     }else{
-        //si no esta vacío agrega el nombre a la lista (actualizar la lista)
-        amigos.push(nombreDelAmigo);
+        //Si no esta vacío agrega el nombre a la lista        
+        amigos.push(nombreFormateado);
         //Limpiamos la entrada
         limpiarEntrada(); 
         //Actualizamos la lista de amigos en la pantalla
@@ -86,6 +91,11 @@ function nombreDuplicado(nombre) {
         }
     }
     return resultado;
+}
+
+function formatearNombre(nombre) {
+    // Formatear el nombre con la primera letra en mayúscula y el resto en minúscula
+    return nombre.toLowerCase().charAt(0).toUpperCase() + nombre.toLowerCase().slice(1);
 }
 
 
