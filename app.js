@@ -20,6 +20,9 @@ function agregarAmigo() {
     if(nombreFormateado === ''){
         //mensaje de alerta
         alert('Por favor, inserte un nombre');
+    }else if(!validarNombre(nombreFormateado)){
+        alert('Ingrese un nombre válido');
+        limpiarEntrada();
     }else if(nombreDuplicado(nombreFormateado)===true){
         //Validar que no haya nombres duplicados
         alert('Nombre duplicado, por favor inserta un nuevo nombre');
@@ -51,6 +54,16 @@ function actualizarLista() {
         lista.appendChild(nuevoElemento);
     }
     return;
+}
+
+function limpiar() {
+    limpiarEntrada();
+    let listaAmigosLimpiada = document.querySelector('#listaAmigos');
+    listaAmigosLimpiada.innerHTML = "";
+    amigos = [];
+    let listaResultadoLimpiada = document.querySelector('#resultado');
+    listaResultadoLimpiada.innerHTML = "";
+
 }
 
 function sortearAmigo() {
@@ -96,6 +109,13 @@ function nombreDuplicado(nombre) {
 function formatearNombre(nombre) {
     // Formatear el nombre con la primera letra en mayúscula y el resto en minúscula
     return nombre.toLowerCase().charAt(0).toUpperCase() + nombre.toLowerCase().slice(1);
+}
+
+function validarNombre(nombre){
+    //validamos que contenta solo letras
+    const regex = /^[A-Za-z]+$/;
+    //retorna verdadero si el nombre solo contiene letras
+    return regex.test(nombre);
 }
 
 
