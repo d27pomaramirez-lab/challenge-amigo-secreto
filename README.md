@@ -36,7 +36,8 @@
 
 <div align="center">
   
-  ![Emulador de juego](https://github.com/user-attachments/assets/c12202fb-e6a9-496f-9345-83c0186d67c0)
+   ![Emulador de juego](https://github.com/user-attachments/assets/98832757-64f0-4b68-a453-f3358441ccb7)
+
   
 </div>
 
